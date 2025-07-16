@@ -2,7 +2,7 @@ const express = require("express");
 const authorModel = require("../models/author.model");
 const redisClient = require("../redis/redisClient");
 const authmiddleware = require("../middlewares/auth.middleware");
-// const roleCheck = require("../middlewares/roleCheck");
+
 
 const authorRouter = express.Router();
 
